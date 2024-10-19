@@ -15,10 +15,13 @@ body {
   font-family: "Work Sans", sans-serif;
   min-height: 100vh;
   background-color: var(--lightpink);
+  display: flex;
+  justify-content: center;
 }
 
 #background-img {
   position: absolute;
+  width: 100%;
   z-index: -1;
 }
 
@@ -27,7 +30,7 @@ body {
   height: auto;
   background-color: var(--white);
   position: absolute;
-  margin: 100px 50% 0 50%;
+  margin: 90px auto;
   border-radius: 20px;
   padding: 40px;
   display: flex;
